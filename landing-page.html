@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./landing-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Goblin One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=KoPub Batang:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+      <img
+        class="science-and-technology-lines-p-icon"
+        alt=""
+        src="./public/science-and-technology-lines-png-transparent--science-and-technology-line-earth--technology-ball--technology-earth--earth-png-image-for-free-downloadremovebgpreview-1@2x.png"
+      />
+
+      <div class="the-greatness-of">
+        The Greatness of a Nation and its Moral Progress can be judged by the
+        way its animals are treated
+      </div>
+      <div class="landing-page-child" id="rectangle"></div>
+      <b class="log-in1" id="lOGIN" onclick="lOGIN()">LOG IN / SIGN UP</b>
+      <img
+        class="rectangle-9-stroke1"
+        alt=""
+        src="./public/rectangle-9-stroke1.svg"
+      />
+
+      <b class="life-of-wild">Life of Wild</b>
+      <img class="house-solid-1-icon" alt="" src="./public/housesolid-1.svg" />
+
+      <div class="srch">
+        <form action="submit" class="searchbar" onsubmit="Search()">
+          <input type="search" class="search" placeholder="Search for countries..." >
+          <button type="submit" class="srchbtn">Search</button>
+        </form>
+
+      </div>
+
+      <img
+        class="earth-asia-solid-1-icon"
+        alt=""
+        src="./public/earthasiasolid-1.svg"
+      />
+
+      <img
+        class="istockphoto-1331044109-612x612-icon"
+        alt=""
+        src="./public/istockphoto1331044109612x612-1@2x.png"
+      />
+
+      <div class="landing-page-item"></div>
+      <div class="sidebar">
+        <div class="main-logo2">
+          <div class="main-logo-inner"></div>
+          <img
+            class="screenshot-2023-08-12-174519-12"
+            alt=""
+            src="./public/screenshot-20230812-174519-11@2x.png"
+          />
+        </div>
+        <img class="notification-icon" alt="" src="./public/notification.svg" />
+
+        <img class="user-logo-icon" alt="" src="./public/user-logo.svg" />
+
+        <b class="home2">Home</b>
+        <b class="world-map">World Map</b>
+        <b class="about-us">About Us</b>
+        <b class="kuch-bhi">Reach Us</b>
+        <b class="contact-us">Contact Us</b>
+        <b class="faqs">FAQs</b>
+      </div>
+    </div>
+
+    <script>
+      async function search() {
+        const temp = await fetch(`https://private-anon-eee5b104d6-endangeredanimals.apiary-mock.com/all_animal_data`)
+        .then(res => res.json());
+
+        console.log(temp);
+      }
+
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+      
+      var lOGIN = document.getElementById("lOGIN");
+      if (lOGIN) {
+        lOGIN.addEventListener("click", function (e) {
+          window.location.href = "./login-page.html";
+        });
+      }
+
+      
+      </script>
+  </body>
+</html>

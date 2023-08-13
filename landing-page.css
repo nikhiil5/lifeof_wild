@@ -1,0 +1,200 @@
+.science-and-technology-lines-p-icon {
+  position: absolute;
+  top: 1151.6px;
+  left: 1143.16px;
+  width: 757.94px;
+  height: 1017px;
+  object-fit: cover;
+  display: none;
+}
+.the-greatness-of {
+  position: absolute;
+  top: 211px;
+  left: 234px;
+  font-size: 36px;
+  font-family: var(--font-goblin-one);
+  display: inline-block;
+  width: 329px;
+  height: 365px;
+}
+.landing-page-child,
+.log-in1 {
+  position: absolute;
+  cursor: pointer;
+}
+.landing-page-child {
+  top: 827px;
+  left: 235px;
+  border-radius: var(--br-11xl);
+  background-color: #303029;
+  width: 201px;
+  height: 41px;
+}
+.log-in1 {
+  top: 836px;
+  left: 253px;
+  display: inline-block;
+  width: 165px;
+}
+.rectangle-9-stroke1 {
+  position: absolute;
+  top: 827px;
+  left: 234px;
+  width: 202px;
+  height: 41px;
+  display: none;
+}
+.life-of-wild {
+  position: absolute;
+  top: calc(50% - 487px);
+  left: calc(50% - 726px);
+  font-size: 64px;
+  font-family: var(--font-kopub-batang);
+}
+.earth-asia-solid-1-icon,
+.house-solid-1-icon {
+  position: absolute;
+  top: 241px;
+  left: 16px;
+  width: 15px;
+  height: 13px;
+  overflow: hidden;
+}
+.earth-asia-solid-1-icon {
+  top: 329px;
+  left: 4px;
+  height: 16px;
+}
+.istockphoto-1331044109-612x612-icon {
+  position: absolute;
+  top: 508px;
+  left: 6px;
+  width: 17px;
+  height: 16px;
+  object-fit: cover;
+}
+.landing-page-item {
+  position: absolute;
+  top: 827px;
+  left: 235px;
+  border-radius: var(--br-11xl);
+  background-color: rgba(255, 255, 255, 0.27);
+  width: 201px;
+  height: 41px;
+}
+.main-logo-inner {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 80px;
+  height: 80px;
+}
+.screenshot-2023-08-12-174519-12 {
+  position: relative;
+  width: 90.85px;
+  height: 76px;
+  object-fit: cover;
+  mix-blend-mode: darken;
+  margin-top: -80px;
+}
+.main-logo2 {
+  position: absolute;
+  top: 31px;
+  left: 19px;
+  width: 90.85px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 5px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-end;
+}
+.notification-icon {
+  position: absolute;
+  top: 909px;
+  left: 39px;
+  border-radius: 20px;
+  width: 50px;
+  height: 50px;
+}
+.user-logo-icon {
+  position: absolute;
+  top: 989px;
+  left: 29px;
+  border-radius: var(--br-11xl);
+  width: 70px;
+  height: 70px;
+}
+.home2,
+.world-map {
+  position: absolute;
+  top: 235px;
+  left: 35px;
+}
+.world-map {
+  top: 325px;
+  left: 21px;
+}
+.about-us,
+.kuch-bhi {
+  position: absolute;
+  top: 505px;
+  left: 31px;
+}
+.kuch-bhi {
+  top: 415px;
+  left: 21px;
+}
+.contact-us,
+.faqs,
+.sidebar {
+  position: absolute;
+  top: 595px;
+  left: 9px;
+}
+.faqs,
+.sidebar {
+  top: 685px;
+  left: 39px;
+}
+.sidebar {
+  top: 0;
+  left: 0;
+  background-color: rgba(145, 137, 130, 0.5);
+  width: 128px;
+  height: 1080px;
+}
+.landing-page {
+  position: relative;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  background-image: url(./public/landing-page@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+.searchbar{
+  display: flex;
+
+  margin: 69px 40vw;
+
+}
+
+.search{
+  width: 20vw;
+  height: 6vh;
+  border-radius: 10px
+}
+
+.srchbtn{
+  width: 5vw;
+    height: 7vh;
+    border-radius: 10px;
+}
